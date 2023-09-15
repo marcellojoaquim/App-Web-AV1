@@ -7,7 +7,7 @@
 
 <p>
   Primeira avaliação da disciplina de Desenvolvimento de aplicações web. Este projeto é resultado da impleentação parcial de um projeto aberto no figma
-  caso queitra ver o projeto original, siga o link: https://www.figma.com/community/file/986709120355584896.
+  caso queitra ver o projeto original, siga o link: https://www.figma.com/community/file/1101604745111749352.
   Há sim o interesse de implementá-lo por completo em outro momento, porém não nesta primeira versão onde não há o uso de frameworks forntend.
 </p>
 <h2 align='center'> Requisitos do projeto </h2>
