@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Saira Stencil One';
+}
+
+body {
+    height: 100vh;
+    background: url("image-2.png") top left / 50% 100% no-repeat,
+        url("image-1.png") top right / 50% 100% no-repeat;
+}
+
+
+.info-text-sga h1 {
+    color: #F00;
+    font-family: Saira Stencil One;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-text-sga p {
+    color: #FFF;
+    font-family: Saira Stencil One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.melhores {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-icon {
+    display: flex;
+    flex-direction: column;
+}
+

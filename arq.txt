@@ -1,0 +1,8 @@
+ <div class="info">
+            <div class="column">
+                <img src="image-2.png" alt="Personagem de game">
+            </div>
+            <div class="column">
+                <img src="image-1.png" alt="Fundo decorativo com tema gamer">
+            </div>
+        </div>

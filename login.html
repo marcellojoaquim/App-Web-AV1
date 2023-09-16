@@ -4,27 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     <title>Login</title>
 </head>
 
 <body>
     <main>
-        <h1>Login</h1>
-
-        <div>
-            <h1>SGAMING</h1>
-            <p>SUA REDE SOCIAL GAMER</p>
-            <P>compartilhe suas melhores jogadas</P>
-            <p>encontre novos parceiros para suas jogatinas</p>
+    <section class="info">
+        <div class="info-text">
+            <div class="info-text-sga">
+                <h1>SGAMING</h1>
+                <p>SUA REDE SOCIAL GAMER</p>
+            </div>
+            <div class="text-icon">
+                <div class="melhores">
+                    <img src="icon1.svg" alt="">
+                    <P>compartilhe suas melhores jogadas</P>
+                </div>
+                <div class="melhores">
+                    <img src="icon2.svg" alt="">
+                    <p>encontre novos parceiros para suas jogatinas</p>
+                </div>
+            </div>
         </div>
-
-        <form action="">
-            <input type="text" name="user">
-            <input type="password" name="password">
-            <input type="submit" name="Entrar">
-        </form>
-        <h3>Não tenho conta</h3>
-    </main>
+    </section>
+    <section class="form">
+        <div class="form-login">
+            <h1>Login</h1>
+            <form action="#" method="post" class="login">
+                <input type="text" name="user">
+                <input type="password" name="password">
+                <input type="submit" name="Entrar" value="Entrar">
+            </form>
+            <h3><a href="signup.html">Não tenho conta</a></h3>
+        </div>
+    </section>
+</main>
 </body>
 
 </html>
