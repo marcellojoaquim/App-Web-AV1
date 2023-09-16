@@ -1,6 +1,6 @@
 <h1 align='center'> App-Web-AV1</h1>
 <p align='center'>
-<img align='center' src="https://github.com/marcellojoaquim/App-Web-AV1/assets/86138501/0758edaa-4279-4342-8cdf-e38f2cccd8e6" width="300" />
+<img align='center' src="https://github.com/marcellojoaquim/App-Web-AV1/assets/86138501/f9aefaf7-1901-473f-ae53-f860b5394612" width="300" />
 </p>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
