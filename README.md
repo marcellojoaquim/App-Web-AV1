@@ -18,3 +18,8 @@ ou criar modelo).
 3. Deixar a aplicação responsiva.
 4. Implementar Meenu de navegação da página inicial.
 5. Implmentar navegação entre páginas.
+
+<h2> Tecnologias </h2>
+
+- HTML5
+- CSS3
