@@ -74,10 +74,17 @@ a {
 }
 
 
-.signup {
-    background: url("image-1.png") 100% 100% no-repeat;
+.home-body{
+    background: url("image-1.png") 100% no-repeat;
 }
 
 .melhores p{
     font-size: 20px;
 }
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
