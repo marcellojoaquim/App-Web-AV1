@@ -6,3 +6,13 @@
                 <img src="image-1.png" alt="Fundo decorativo com tema gamer">
             </div>
         </div>
+
+
+        <header>
+        <div class="div-logo">
+            <h1>sgaming</h1>
+        </div>
+        <div class="div-user">
+            <h2>Olá</h2>
+        </div>
+    </header>
