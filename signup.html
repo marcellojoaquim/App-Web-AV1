@@ -32,13 +32,31 @@
             <div class="form-signup">
                 <h1>Nova Conta</h1>
                 <form action="login.html">
-                    <input type="text" name="name">
-                    <input type="email" name="email">
-                    <input type="password" name="password">
-                    <input type="password" name="confirm-password">
-                    <input type="number" name="cpf">
-                    <input type="number" name="telefone">
-                    <input type="submit" name="Cadastrar">
+                    <div class="campos-simples">
+                        <p>Nome:</p>
+                        <input type="text" name="name">
+                        <p>Email:</p>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="campos-estilizados">
+                        <div class="div1">
+                            <p>Senha:</p>
+                            <input type="password" name="password">
+                        </div>
+                        <div class="div2">
+                            <p>Confirme sua senha:</p>
+                            <input type="password" name="confirm-password">
+                        </div>
+                        <div class="div3">
+                            <p>CPF:</p>
+                            <input type="number" name="cpf">
+                        </div>
+                        <div class="div4">
+                            <p>Telefone:</p>
+                            <input type="number" name="telefone">
+                        </div>
+                    </div>
+                    <button type="submit" class="botao-signup">Cadastrar</button>
                 </form>
             </div>
         </section>
