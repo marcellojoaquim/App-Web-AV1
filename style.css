@@ -9,14 +9,14 @@
 
 body {
     height: 100vh;
-    background: url("image-2.png") top left / 50% 100% no-repeat,
-        url("image-1.png") top right / 50% 100% no-repeat;
+    background: url("img/image-2.png") top left / 50% 100% no-repeat,
+        url("img/image-1.png") top right / 50% 100% no-repeat;
 }
 
 
 .info-text-sga h1 {
     color: #F00;
-    font-family: Saira Stencil One;
+    font-family: 'Saira Stencil One';
     font-size: 100px;
     font-style: normal;
     font-weight: 400;
@@ -25,7 +25,7 @@ body {
 
 .info-text-sga p {
     color: #FFF;
-    font-family: Saira Stencil One;
+    font-family: 'Saira Stencil One';
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +75,7 @@ a {
 
 
 .home-body{
-    background: url("image-1.png") 100% no-repeat;
+    background: url("img/image-1.png") 100% no-repeat;
 }
 
 .melhores p{
@@ -88,3 +88,51 @@ a {
     flex-direction: row;
 }
 
+.botao-submit {
+    cursor: pointer;
+    background: #FF5D00;
+    border-radius: 6px;
+    flex-shrink: 0;
+    width: 65px;
+    height: 38px;
+    font-family: 'Saira Condensed';
+    font-size: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+.form-login h1 {
+    color: #F00;
+    font-family: "Saira Stencil One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-login a {
+    font-family: 'Saira Condensed';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form-login p {
+    font-family: "Saira Condensed";
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.form-login input {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.form-login h3 {
+    margin-top: 150px;
+    
+}
