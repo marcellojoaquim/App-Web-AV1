@@ -13,6 +13,10 @@ body {
         url("img/image-1.png") top right / 50% 100% no-repeat;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
 
 .info-text-sga h1 {
     color: #F00;
@@ -58,9 +62,20 @@ body {
     justify-content: center;
 }
 
-main {
+.icons-home {
     display: flex;
     flex-direction: row;
+}
+.icon {
+    margin-right: 10px;
+}
+
+.textarea {
+    width: 900px;
+    height: 100px;
+    background-color: #37394E;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 .login {
@@ -77,9 +92,33 @@ a {
     text-decoration: none;
 }
 
+/* index */
 
 .home-body{
-    background: url("img/image-1.png") 100% no-repeat;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("img/image-1.png") no-repeat;
+    background-size: cover;
+}
+
+.header-home {
+    background-color: #37394E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-home h1 {
+    color: #F00;
+    font-family: "Saira Stencil One";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 350px;
+    margin-right: 230px;
 }
 
 .melhores p{
@@ -89,7 +128,50 @@ a {
 .home {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+.botao-post {
+    cursor: pointer;
+    background: #FF5D00;
+    border-radius: 5px;
+    flex-shrink: 0;
+    width: 65px;
+    height: 38px;
+    font-family: 'Saira Condensed';
+    font-size: 20px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 317px;
+}
+
+
+.titulo-feed h2 {
+    color: #FFF;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: normal;
+}
+.div-titulo {
+    width: 50vw;
+    display: flex;
     flex-direction: row;
+    align-items: baseline;
+}
+
+.form-home {
+    width: 900px;
+}
+
+.div-titulo h1 {
+    color: #FFF;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 30px;
 }
 
 .botao-submit {
