@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     <title>SignUp</title>
 </head>
 
@@ -31,7 +31,7 @@
         <section class="form">
             <div class="form-signup">
                 <h1>Nova Conta</h1>
-                <form action="login.html">
+                <form action="login.html" class="form-container">
                     <div class="campos-simples">
                         <p>Nome:</p>
                         <input type="text" name="name">
@@ -56,7 +56,9 @@
                             <input type="number" name="telefone">
                         </div>
                     </div>
-                    <button type="submit" class="botao-signup">Cadastrar</button>
+                    <div class="button-signup">
+                        <button type="submit" class="botao-signup">Cadastrar</button>
+                    </div>
                 </form>
             </div>
         </section>

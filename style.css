@@ -9,8 +9,10 @@
 
 body {
     height: 100vh;
-    
-        
+}
+
+input {
+    color: black;
 }
 
 main {
@@ -98,11 +100,9 @@ a {
 
 .home-body{
     margin: 0;
-    position: relative;
     height: 100vh;
     width: 100vw;
-    background: url("img/image-1.png") no-repeat;
-    background-size: cover;
+    background: url("img/image-1.png") top right / 100% 100% no-repeat;
 }
 
 .header-home {
@@ -110,6 +110,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .header-home h1 {
@@ -119,8 +121,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 350px;
-    margin-right: 230px;
+    margin-right: 20%;
 }
 
 .melhores p{
@@ -146,6 +147,9 @@ a {
     margin-left: 317px;
 }
 
+.titulo-feed {
+    margin-top: 3em;
+}
 
 .titulo-feed h2 {
     color: #FFF;
@@ -156,12 +160,11 @@ a {
     line-height: normal;
 }
 .div-titulo {
-    width: 50vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     text-align: left;
-    width: 100%;
 }
 
 .container-form {
@@ -169,13 +172,14 @@ a {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    width: vw;
+    width: 100%;
+    margin-top: 1em;
 }
 .form-home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vh;
+    width: 100vw;
 }
 
 .div-titulo h1 {
@@ -185,7 +189,9 @@ a {
     font-weight: 300;
     line-height: normal;
     font-size: 30px;
-    margin-left: 29rem;
+    width: 100%;
+    text-align-last: center;
+    margin-top: 2em;
 }
 
 .botao-submit {
@@ -298,15 +304,122 @@ a {
     padding-left: 100px;
 }
 
-@media (max-width:960px) {
+@media only screen and (max-width:960px) {
+
     .info {
         display: none;
     }
 
     .form {
-        margin: auto;
-        width: 80%;
+        margin: 0;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-signup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .campos-simples {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .campos-simples input {
+        height: 34px;
+        width: 204px;
+    }
+    .campos-estilizados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+    .div1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .div2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .div3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .div4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .button-signup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-body {
+        min-height: 100vh;
+    }
+
+    .header-home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home {
+
+    }
+
+    .textarea {
+        width: 75%;
+        height: 100px;
+        background-color: #37394E;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
+    .botao-post {
+        cursor: pointer;
+        background: #FF5D00;
+        border-radius: 5px;
+        flex-shrink: 0;
+        width: 65px;
+        height: 38px;
+        font-family: 'Saira Condensed';
+        font-size: 20px;
+        border: none;
+        margin-top: 5px;
+        margin-left: 5em;
     }
 }
