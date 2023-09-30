@@ -9,8 +9,8 @@
 
 body {
     height: 100vh;
-    background: url("img/image-2.png") top left / 50% 100% no-repeat,
-        url("img/image-1.png") top right / 50% 100% no-repeat;
+    
+        
 }
 
 main {
@@ -52,6 +52,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url("img/image-2.png") top left / 100% 100% no-repeat;
 }
 .form {
     height: 100vh;
@@ -60,6 +61,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: url("img/image-1.png") top right / 100% 100% no-repeat;
 }
 
 .icons-home {
@@ -71,7 +73,7 @@ main {
 }
 
 .textarea {
-    width: 900px;
+    width: 500px;
     height: 100px;
     background-color: #37394E;
     border: 1px solid #000;
@@ -129,7 +131,6 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 600px;
 }
 .botao-post {
     cursor: pointer;
@@ -159,10 +160,22 @@ a {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    text-align: left;
+    width: 100%;
 }
 
+.container-form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: vw;
+}
 .form-home {
-    width: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
 }
 
 .div-titulo h1 {
@@ -172,6 +185,7 @@ a {
     font-weight: 300;
     line-height: normal;
     font-size: 30px;
+    margin-left: 29rem;
 }
 
 .botao-submit {
@@ -284,3 +298,15 @@ a {
     padding-left: 100px;
 }
 
+@media (max-width:960px) {
+    .info {
+        display: none;
+    }
+
+    .form {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
