@@ -9,6 +9,7 @@
   Primeira avaliação da disciplina de Desenvolvimento de aplicações web. Este projeto é resultado da implementação de um projeto aberto no figma,
   caso queira ver o projeto original, siga o link: https://www.figma.com/community/file/1101604745111749352.
   Você poderá seguir este repositório e companhar o avanço em sua implementação, nesta primeira versão onde não há o uso de frameworks forntend algumas funcionalidades não serão implementadas.
+  Acesse a página em: https://marcellojoaquim.github.io/App-Web-AV1/
 </p>
 <h2 align='center'> Requisitos do projeto </h2>
 
