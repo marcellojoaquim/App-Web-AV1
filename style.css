@@ -121,7 +121,10 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 20%;
+    margin-right: 10%;
+}
+.nav-home {
+    margin-left: 10%;
 }
 
 .melhores p{
@@ -138,7 +141,7 @@ a {
     background: #FF5D00;
     border-radius: 5px;
     flex-shrink: 0;
-    width: 65px;
+    width: 68px;
     height: 38px;
     font-family: 'Saira Condensed';
     font-size: 20px;
@@ -199,7 +202,7 @@ a {
     background: #FF5D00;
     border-radius: 6px;
     flex-shrink: 0;
-    width: 65px;
+    width: 68px;
     height: 38px;
     font-family: 'Saira Condensed';
     font-size: 20px;
@@ -257,7 +260,7 @@ a {
     background: #FF5D00;
     border-radius: 6px;
     flex-shrink: 0;
-    width: 88px;
+    width: 92px;
     height: 42px;
     font-family: 'Saira Condensed';
     font-size: 20px;
