@@ -410,6 +410,11 @@ a {
         font-size: .8rem;
     }
 
+    .nav-home {
+        margin-left: 10%;
+        font-size: .8rem;
+    }
+
     .textarea {
         width: 75%;
         height: 100px;
